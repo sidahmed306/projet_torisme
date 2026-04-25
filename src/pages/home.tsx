@@ -32,28 +32,28 @@ export default function Home() {
 
   const tours = [
     {
-      img: "/images/terjit-oasis.svg",
+      img: "/images/WhatsApp Image 2026-04-24 at 13.04.56.jpeg",
       title: "Terjit Oasis Day Trip",
       description: "Cool off in Mauritania's most famous canyon oasis. Palm trees, fresh tea, and natural pools.",
       duration: "1 Day",
       icon: Car,
     },
     {
-      img: "/images/ancient-ksour.svg",
+      img: "/images/WhatsApp Image 2026-04-24 at 13.04.56 (1).jpeg",
       title: "Ancient Ksour & Trade Routes",
       description: "Explore the old caravan cities of Chinguetti and Ouadane, libraries of the Sahara.",
       duration: "3 Days",
       icon: Globe,
     },
     {
-      img: "/images/coastal-camps.svg",
+      img: "/images/WhatsApp Image 2026-04-24 at 13.04.56 (2).jpeg",
       title: "Atlantic Coastal Camping",
       description: "Fresh seafood and wild beaches where the desert meets the Atlantic Ocean.",
       duration: "2 Days",
       icon: Calendar,
     },
     {
-      img: "/images/richat-structure.svg",
+      img: "/images/WhatsApp Image 2026-04-24 at 13.04.56 (3).jpeg",
       title: "Richat Structure (Eye of the Sahara)",
       description: "Fly over or trek through the mysterious Eye of Africa, a geological wonder.",
       duration: "4 Days",
@@ -132,9 +132,9 @@ export default function Home() {
         {/* Hero */}
         <section className="relative h-[95vh] min-h-[600px] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 z-0">
-            <div className="absolute inset-0 bg-black/40 z-10 mix-blend-multiply"></div>
+            <div className="absolute inset-0 bg-black/30 z-10"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent z-20"></div>
-            <img src="/images/iron-ore-train.svg" alt="Iron Ore Train crossing the Sahara at sunset" className="w-full h-full object-cover object-center" />
+            <img src="/images/WhatsApp Image 2026-04-24 at 13.04.56 (4).jpeg" alt="Iron Ore Train crossing the Sahara at sunset" className="w-full h-full object-cover object-center" />
           </div>
           <div className="container relative z-30 mx-auto px-4 md:px-6 pt-20">
             <div className="max-w-3xl">
@@ -178,7 +178,7 @@ export default function Home() {
               {/* Featured: Iron Ore Train */}
               <div className="group relative overflow-hidden rounded-2xl bg-card border border-border shadow-sm hover:shadow-md transition-all lg:col-span-2 lg:row-span-2">
                 <div className="absolute inset-0 z-0">
-                  <img src="/images/hero-dunes.svg" alt="Sahara Dunes" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <img src="/images/WhatsApp Image 2026-04-24 at 13.04.57.jpeg" alt="Sahara Dunes" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 </div>
                 <div className="relative z-10 h-full flex flex-col justify-end p-6 md:p-10 min-h-[400px]">
@@ -327,12 +327,12 @@ export default function Home() {
             <h2 className="text-3xl md:text-5xl font-serif text-foreground mb-12 text-center">Gallery</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               {[
-                "/images/gallery-1.svg",
-                "/images/gallery-2.svg",
-                "/images/gallery-3.svg",
-                "/images/gallery-4.svg",
-                "/images/gallery-5.svg",
-                "/images/gallery-6.svg",
+                "/images/WhatsApp Image 2026-04-24 at 13.04.56 (5).jpeg",
+                "/images/WhatsApp Image 2026-04-24 at 13.04.56 (6).jpeg",
+                "/images/WhatsApp Image 2026-04-24 at 13.04.56 (7).jpeg",
+                "/images/WhatsApp Image 2026-04-24 at 13.04.56 (8).jpeg",
+                "/images/WhatsApp Image 2026-04-24 at 13.04.56 (9).jpeg",
+                "/images/WhatsApp Image 2026-04-24 at 13.04.56 (10).jpeg",
               ].map((img, index) => (
                 <div key={index} className="aspect-square overflow-hidden rounded-xl">
                   <img src={img} alt={`Gallery ${index + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
